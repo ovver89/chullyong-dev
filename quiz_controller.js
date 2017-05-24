@@ -16,5 +16,5 @@ Quiz.prototype.guess = function(answer) {
     if(this.getQuestionIndex().correctAnswer(answer)) {
     this.score++;
   }
-  his.questionIndex++;
+  this.questionIndex++;
 }
