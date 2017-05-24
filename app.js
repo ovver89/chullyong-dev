@@ -34,11 +34,11 @@ function showScores() {
 
 
 var questions = [
-  new Questions("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
-  new Questions("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
-  new Questions("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
-  new Questions("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
-  new Questions("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
+  new Question("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
+  new Question("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
+  new Question("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
+  new Question("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
+  new Question("adsfasdfsadf?", ["heel", "b", "c", "d"], "c"),
 ];
 
 var quiz = new Quiz(questions);
