@@ -1,6 +1,6 @@
 function Quiz(questions) {
   this.score = 0;
-  this.questions: questions;
+  this.questions = questions;
   this.questionIndex = 0;
 }
 
@@ -13,9 +13,8 @@ Quiz.prototype.isEnded = funtion() {
 }
 
 Quiz.prototype.guess = funtion(answer) {
-  this.questionIndex++;
-
-  if(this.getQuestionIndex().correctAnswer(answer)) {
+    if(this.getQuestionIndex().correctAnswer(answer)) {
     this.score++;
   }
+  his.questionIndex++;
 }
