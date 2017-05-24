@@ -4,7 +4,7 @@ function Quiz(questions) {
   this.questionIndex = 0;
 }
 
-Quiz.prototype.getQuestionIndex = funtion() {
+Quiz.prototype.getQuestionIndex = function() {
   return this.questions[this.questionIndex];
 }
 
