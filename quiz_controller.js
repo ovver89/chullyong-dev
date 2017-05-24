@@ -8,11 +8,11 @@ Quiz.prototype.getQuestionIndex = function() {
   return this.questions[this.questionIndex];
 }
 
-Quiz.prototype.isEnded = funtion() {
+Quiz.prototype.isEnded = function() {
   return this.questions.length === this.questionIndex;
 }
 
-Quiz.prototype.guess = funtion(answer) {
+Quiz.prototype.guess = function(answer) {
     if(this.getQuestionIndex().correctAnswer(answer)) {
     this.score++;
   }
